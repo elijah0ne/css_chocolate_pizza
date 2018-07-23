@@ -1,0 +1,116 @@
+/* * {
+    outline: 1px solid green;
+} */
+
+html, body {
+    margin: 0 auto;
+    width: 85%;
+}
+
+header {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.flogo {
+    float: left;
+    margin-right: 5px;
+}
+
+.logo {
+    padding: 0;
+}
+
+.logo h1 {
+    font-family: "Yellowtail", cursive;
+    font-size: 34px;
+    margin-bottom: 3px;
+    
+}
+
+.logo p {
+    margin-top: 0;
+    font-size: 8px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+.logo ul {
+    float: right;
+    margin-top: -40px;
+    /* Bad practice to use -px. Need to find fix for this. */
+}
+
+.logo li {
+    display: inline;
+}
+
+.rss {
+    margin-left: 10px;
+}
+
+.pizza {
+    width: 100%;
+}
+
+.pic-title {
+    margin-top: 30px;
+}
+
+.pic-title h1 {
+    font-weight: 900;
+    margin-bottom: 4px;
+    font-size: 35px;
+    font-family: impact, sans-serif;
+}
+
+.pic-title p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(126, 126, 126);
+}
+
+
+.recipe p {
+    text-indent: 3%;
+    color: rgb(126, 126, 126);
+}
+
+.ingredients {
+    width: 95%;
+    height: 250px;
+    padding: 22px 50px;
+    margin-bottom: 20px;
+    background-image: url(../img/list-bg.png), url(../img/list-bg.png);
+    background-repeat: no-repeat, no-repeat;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(126, 126, 126);
+}
+
+.ingredients li {
+    list-style-type: none;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.left {
+    float: left;
+    margin-right: 250px;
+    margin-left: 10px;
+}
+
+.right {
+    margin-right: 80px;
+}
+
+
+
+
+
+
+
+
+
